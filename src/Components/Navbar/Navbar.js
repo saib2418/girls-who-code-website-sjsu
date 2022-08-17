@@ -2,32 +2,6 @@ import './Navbar.css';
 import { Link } from "react-scroll";
 
 function Navbar() {
-  const navbarItems = [{
-    id: 0,
-    title: ''
-  },
-  {
-    id: 1,
-    title: 'about'
-  },
-  {
-    id: 2,
-    title: 'e-board'
-  },
-  {
-    id: 3,
-    title: 'sponsors'
-  },
-  {
-    id: 4,
-    title: 'resources'
-  },
-  {
-    id: 5,
-    title: 'contact'
-  }
-  ]
-
 
   return (
     <div className="App">
@@ -35,27 +9,18 @@ function Navbar() {
         <nav>
           <h2>GIRLS WHO CODE</h2>
           <ul>
-            {navbarItems.map(menu => (
-              <li>
-                <Link to={menu.title} smooth={true} offset={-450} duration={500}>
-                  {menu.title}
-                </Link>
-              </li>
-            ))}
+
+            <li><a href="/about.js"><Link to="about" spy={true} smooth={true} duration={500}>About</Link></a></li>
+            <li><a href="/events.js"><Link to="events" spy={true} smooth={true} duration={500}>Events</Link></a></li>
+            <li><a href="/eboard.js"><Link to="eboard" spy={true} smooth={true} duration={500}>E-Board</Link></a></li>
+            <li><a href="/sponsors.js"><Link to="sponsors" spy={true} smooth={true} duration={500}>Sponsors</Link></a></li>
+            <li><a href="/resources.js"><Link to="resources" spy={true} smooth={true} duration={500}>Resources</Link></a></li>
           </ul>
         </nav>
       </header>
-
-      <main>
-        {navbarItems.map((menu) => (
-          <div className="content">
-            <h1 className="content-header" id={menu.title}>
-              {menu.title}
-            </h1>
-          </div>
-        ))}
-      </main>
     </div>
+
+
   );
 }
 

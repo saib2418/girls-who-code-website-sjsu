@@ -1,12 +1,12 @@
 import React from 'react'
 import './pages.css';
 
-const Events = () => {
+const Eboard = () => {
     return (
         <div className="content">
-            <h1 className="content-header" id='events'>Events</h1>
+            <h1 className="content-header" id='eboard'>E-Board</h1>
         </div>
     )
 }
 
-export default Events;
+export default Eboard;

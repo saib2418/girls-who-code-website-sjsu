@@ -1,9 +1,12 @@
 import React from 'react';
-import './about.css';
+import './pages.css';
 
 function About() {
     return (
-        <h1>helloooooo</h1>
+        <div className="content">
+            <h1 className="content-header" id='about'>About Us</h1>
+            <p>i really hope this works</p>
+        </div>
     )
 }
 
