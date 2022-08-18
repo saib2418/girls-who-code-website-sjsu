@@ -58,4 +58,19 @@
     float: left;
     padding: 55px;
     margin: 25px;
+    border-bottom: 30px solid;
+}
+
+.col:hover {
+    opacity: 0.8;
+}
+
+.col p {
+    color: white;
+    position: relative;
+    top: 160%;
+    left: -168%;
+    width: 400px;
+    text-align: center;
+
 }
