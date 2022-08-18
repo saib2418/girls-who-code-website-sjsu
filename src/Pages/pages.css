@@ -14,6 +14,48 @@
     padding: 20px;
 }
 
-p {
-    color: red;
+.box {
+    background-color: #FCE688;
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    left: 25%;
+    top: 30%;
+}
+
+.about-text {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 94%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    padding: 20px;
+    color: white;
+}
+
+.calendar {
+    position: relative;
+    left: 10%;
+    top: 13%;
+    justify-content: center;
+    justify-items: center;
+
+}
+
+.container {
+    width: 1000px;
+    height: 500px;
+    border: 1px;
+    position: relative;
+    top: 14%;
+}
+
+.col {
+    width: 200px;
+    height: 250px;
+    background-color: #FCE688;
+    float: left;
+    padding: 55px;
+    margin: 25px;
 }
