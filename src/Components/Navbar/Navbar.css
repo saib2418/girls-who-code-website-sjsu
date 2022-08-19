@@ -4,9 +4,22 @@ nav {
   justify-content: space-between;
   background-color: black;
   padding: 5px;
-  height: 70px;
+  height: 40px;
   color: white;
-
+  list-style: none;
+  margin: 0;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  background: black;
+  width: 100%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  -webkit-flex-flow: row wrap;
 }
 
 ul {
