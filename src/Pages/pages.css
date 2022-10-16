@@ -21,14 +21,6 @@
     padding: 30px;
 }
 
-.box {
-    background-color: #FCE688;
-    position: absolute;
-    height: 50%;
-    width: 50%;
-    left: 25%;
-    top: 20%;
-}
 
 .about-text {
     position: absolute;
@@ -106,4 +98,15 @@
 .corner-box-list {
     list-style-type: square;
     display: inline-block;
+}
+
+.content-footer{
+    display: flex;
+    height: 30vh;
+    background-color: black;
+    margin: 10px;
+}
+
+.media{
+    color: white;
 }

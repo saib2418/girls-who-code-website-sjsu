@@ -7,14 +7,14 @@ function Navbar() {
     <div className="App">
       <header>
         <nav>
-          <h2>GIRLS WHO CODE</h2>
           <ul>
-
+            <li class="logo"><a href="/slideshow.js"><Link to="slideshow" spy={true} smooth={true} duration={500}>Logo Holder</Link></a></li>
             <li><a href="/about.js"><Link to="about" spy={true} smooth={true} duration={500}>About</Link></a></li>
             <li><a href="/events.js"><Link to="events" spy={true} smooth={true} duration={500}>Events</Link></a></li>
             <li><a href="/eboard.js"><Link to="eboard" spy={true} smooth={true} duration={500}>E-Board</Link></a></li>
             <li><a href="/sponsors.js"><Link to="sponsors" spy={true} smooth={true} duration={500}>Sponsors</Link></a></li>
             <li><a href="/resources.js"><Link to="resources" spy={true} smooth={true} duration={500}>Resources</Link></a></li>
+            <li><a href="/footbar.js"><Link to="contact" spy={true} smooth={true} duration={500}>Contact Us</Link></a></li>
           </ul>
         </nav>
       </header>
