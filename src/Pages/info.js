@@ -1,15 +1,9 @@
 <html>
+  <body>
+    <p>Before the script...</p>
 
-<body>
+    <script>alert( 'Hello, world!' );</script>
 
-  <p>Before the script...</p>
-
-  <script>
-    alert( 'Hello, world!' );
-  </script>
-
-  <p>...After the script.</p>
-
-</body>
-
-</html>
+    <p>...After the script.</p>
+  </body>
+</html>;

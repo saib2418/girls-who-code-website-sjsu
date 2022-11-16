@@ -1,27 +1,85 @@
-import './Navbar.css';
+import React, { Component } from "react";
+import "./Navbar.css";
 import { Link } from "react-scroll";
+import logo from "../../img/gwclogo.png";
 
-function Navbar() {
+class Navbar extends Component {
+  state = { clicked: false };
 
-  return (
-    <div className="App">
-      <header>
-        <nav>
-          <ul>
-            <li class="logo"><a href="/slideshow.js"><Link to="slideshow" spy={true} smooth={true} duration={500}>Logo Holder</Link></a></li>
-            <li><a href="/about.js"><Link to="about" spy={true} smooth={true} duration={500}>About</Link></a></li>
-            <li><a href="/events.js"><Link to="events" spy={true} smooth={true} duration={500}>Events</Link></a></li>
-            <li><a href="/eboard.js"><Link to="eboard" spy={true} smooth={true} duration={500}>E-Board</Link></a></li>
-            <li><a href="/sponsors.js"><Link to="sponsors" spy={true} smooth={true} duration={500}>Sponsors</Link></a></li>
-            <li><a href="/resources.js"><Link to="resources" spy={true} smooth={true} duration={500}>Resources</Link></a></li>
-            <li><a href="/footbar.js"><Link to="contact" spy={true} smooth={true} duration={500}>Contact Us</Link></a></li>
-          </ul>
-        </nav>
-      </header>
-    </div>
+  handleClick = () => {
+    this.setState({ clicked: !this.state.clicked });
+  };
 
+  render() {
+    return (
+      <nav class="NavbarItems">
+        <h1 class="navbar-logo">
+          {" "}
+          <img
+            className="navbar-logo-img"
+            src={logo}
+            to="slideshow"
+            spy={true}
+            smooth={true}
+            duration={500}></img>
+        </h1>
 
-  );
+        <ul className={this.state.clicked ? "nav-menu-active" : "nav-menu"}>
+          <li>
+            <Link
+              className="nav-links"
+              to="about"
+              spy={true}
+              smooth={true}
+              duration={500}>
+              About
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="nav-links"
+              to="events"
+              spy={true}
+              smooth={true}
+              duration={500}>
+              Events
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="nav-links"
+              to="eboard"
+              spy={true}
+              smooth={true}
+              duration={500}>
+              Team
+            </Link>
+          </li>
+          {/* <li><Link className="nav-links" to="sponsors" spy={true} smooth={true} duration={500}>Sponsors</Link></li> */}
+          <li>
+            <Link
+              className="nav-links"
+              to="resources"
+              spy={true}
+              smooth={true}
+              duration={500}>
+              Resources
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="nav-links"
+              to="contact"
+              spy={true}
+              smooth={true}
+              duration={500}>
+              Contact
+            </Link>
+          </li>
+        </ul>
+      </nav>
+    );
+  }
 }
 
 export default Navbar;

@@ -1,23 +1,110 @@
-import React from 'react'
-import './pages.css';
+import styled, { css } from "styled-components";
+import React, { useState } from "react";
+import "./pages.css";
+import sai from "../img/sai.jpeg";
+import manu from "../img/man.JPG";
+import yasesvi from "../img/yas.JPG";
+import taylor from "../img/tay.JPG";
+import m from "../img/mr.JPG";
+import push from "../img/push.jpeg";
+import fern from "../img/fern.jpeg";
 
-function Eboard() {
-    return (
-        <div className="content">
-            <h1 className="content-header" id='eboard'>E-Board</h1>
-            <div class="container">
-                <div class="col"><p> Sai Bharathula <br></br> President</p></div>
-                <div class="col"><p> Manogya Bharathula <br></br> External Vice President</p></div>
-                <div class="col"><p> Pushpal Patil <br></br> Internal Vice President</p></div>
-                <div class="col"><p> Yasesvi Punnaganti <br></br> Secretary</p></div>
-                <div class="col"><p> Taylor Lem <br></br> Treasurer</p></div>
-                <div class="col"><p> Fernanda Palcios <br></br>Event Planning Director</p></div>
-                <div class="col"><p>  Mrudhvika Sirineni <br></br> Social Media Director</p></div>
-                <div class="col"><p> Mikki Blue<br></br> Photographer</p></div>
+const Eboard = () => {
+  const Title = styled.h1`
+    color: white;
+    padding: 30px;
+    margin: 30px;
+  `;
 
-            </div>
+  const position = styled.code`
+    color: white;
+  `;
+
+  const [show, setShow] = useState(true);
+
+  return (
+    <div className="content">
+      <Title id="eboard"> executive board </Title>
+      <div class="gallery">
+        <div>
+          <div>
+            {/* // onMouseEnter={() => setShow(true)}
+          // onMouseLeave={() => setShow(false)} */}
+            <img src={sai} width="300" height="200"></img>
+            <p class="position">
+              sai bharathula <br></br>president
+            </p>
+          </div>
         </div>
-    )
-}
+
+        <div>
+          <div>
+            {/* onMouseEnter={() => setShow(true)}
+            onMouseLeave={() => setShow(false)}> */}
+            <img src={manu} width="300" height="200"></img>
+            <p class="position">
+              manogya bharathula <br></br> external vice president
+            </p>
+          </div>
+        </div>
+
+        <div>
+          <div>
+            {/* onMouseEnter={() => setShow(true)}
+            onMouseLeave={() => setShow(false)}> */}
+            <img src={push} width="300" height="200"></img>
+            <p class="position">
+              pushpal patil <br></br> internal vice president
+            </p>
+          </div>
+        </div>
+
+        <div>
+          <div>
+            {/* onMouseEnter={() => setShow(true)}
+            onMouseLeave={() => setShow(false)}> */}
+            <img src={taylor} width="300" height="200"></img>
+            <p class="position">
+              taylor trinidad <br></br>treasurer
+            </p>
+          </div>
+        </div>
+
+        <div>
+          <div>
+            {/* onMouseEnter={() => setShow(true)}
+            onMouseLeave={() => setShow(false)}> */}
+            <img src={m} width="300" height="200"></img>
+            <p class="position">
+              mrudhvika sirineni <br></br>social media director
+            </p>
+          </div>
+        </div>
+
+        <div>
+          <div>
+            {/* onMouseEnter={() => setShow(true)}
+            onMouseLeave={() => setShow(false)}> */}
+            <img src={yasesvi} width="300" height="200"></img>
+            <p class="position">
+              yasesvi punnuganti <br></br>secretary
+            </p>
+          </div>
+        </div>
+
+        <div>
+          <div>
+            {/* onMouseEnter={() => setShow(true)}
+            onMouseLeave={() => setShow(false)}> */}
+            <img src={fern} width="300" height="200"></img>
+            <p class="position">
+              fernanda palacios <br></br>events director
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
 
 export default Eboard;
