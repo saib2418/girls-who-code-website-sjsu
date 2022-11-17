@@ -1,16 +1,11 @@
 import React, { useEffect, useState } from "react";
 import "./slideshow.css";
-import image1 from "../img/pic1.JPG";
-import image2 from "../img/pic2.JPG";
-import image3 from "../img/pic3.JPG";
-import image4 from "../img/pic1.jpeg";
-import image5 from "../img/pic5.jpg";
-import image6 from "../img/img6.jpeg";
-import image7 from "../img/img7.jpeg";
-import image8 from "../img/img8.jpeg";
-import image9 from "../img/img9.jpeg";
+import image1 from "../img/pic1.jpeg";
+import image2 from "../img/pic2.jpeg";
+import image3 from "../img/pic3.jpeg";
+import image4 from "../img/pic4.JPEG";
 
-const images = [image4, image6, image7, image8, image9, image3, image5];
+const images = [image1, image2, image3, image4];
 //change index every 2.5 seconds using setTimeout
 const delay = 2500;
 

@@ -13,7 +13,7 @@ function Contact() {
       <Title id="contact">contact</Title>
       <link
         rel="stylesheet"
-        href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"></link>
+        href="https://use.fontawesome.com/releases/v6.2.1/css/all.css"></link>
 
       <div class="main">
         <ul>
@@ -40,6 +40,12 @@ function Contact() {
           <a href="https://www.linkedin.com/in/gwc-sjsu/" target="_blank">
             <li>
               <i class="fab fa-linkedin"></i>
+            </li>
+          </a>
+
+          <a href="https://linktr.ee/gwc_sjsu" target="_blank">
+            <li>
+              <i class="fa-solid fa-tree"></i>
             </li>
           </a>
         </ul>
