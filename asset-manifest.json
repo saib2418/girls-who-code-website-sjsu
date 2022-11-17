@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/girls-who-code-website-sjsu/static/css/main.eb48c7e1.css",
+    "main.js": "/girls-who-code-website-sjsu/static/js/main.7e63ce2e.js",
+    "static/media/pic1.jpeg": "/girls-who-code-website-sjsu/static/media/pic1.8b03de101dd3c0dfc345.jpeg",
+    "static/media/man.JPG": "/girls-who-code-website-sjsu/static/media/man.8fdb5869a9fc31e44da7.JPG",
+    "static/media/mr.JPG": "/girls-who-code-website-sjsu/static/media/mr.20f3612c58e96c9df9a8.JPG",
+    "static/media/yas.JPG": "/girls-who-code-website-sjsu/static/media/yas.4932ff0acf57102e4ac7.JPG",
+    "static/media/tay.JPG": "/girls-who-code-website-sjsu/static/media/tay.3998644e2d038b459752.JPG",
+    "static/media/sai.jpeg": "/girls-who-code-website-sjsu/static/media/sai.bbae685244fa7c8895a1.jpeg",
+    "static/media/fern.jpeg": "/girls-who-code-website-sjsu/static/media/fern.68e5324687db3c3aeaaa.jpeg",
+    "static/media/pic2.jpeg": "/girls-who-code-website-sjsu/static/media/pic2.cd68732d73efe59e20c6.jpeg",
+    "static/media/pic3.jpeg": "/girls-who-code-website-sjsu/static/media/pic3.9efe31e0314c819f2526.jpeg",
+    "static/media/pic4.JPEG": "/girls-who-code-website-sjsu/static/media/pic4.977e716e9ccf0c4278eb.JPEG",
+    "static/media/push.jpeg": "/girls-who-code-website-sjsu/static/media/push.43d296e411ad7c6d7adf.jpeg",
+    "static/media/gwclogo.png": "/girls-who-code-website-sjsu/static/media/gwclogo.c51a1006906829c46e63.png",
+    "index.html": "/girls-who-code-website-sjsu/index.html",
+    "main.eb48c7e1.css.map": "/girls-who-code-website-sjsu/static/css/main.eb48c7e1.css.map",
+    "main.7e63ce2e.js.map": "/girls-who-code-website-sjsu/static/js/main.7e63ce2e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb48c7e1.css",
+    "static/js/main.7e63ce2e.js"
+  ]
+}
